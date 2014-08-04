@@ -3,6 +3,9 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="kh_petroleum_pp_buff20140804012740090" name="kh_petroleum_pp_buff">
+            <customproperties/>
+        </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kh_petroleum_gas_pipelines20140804011838406" name="Kh_petroleum_gas_pipelines">
             <customproperties/>
         </layer-tree-layer>
@@ -26,12 +29,12 @@
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="通用版電子地圖透明20140804002029597" name="通用版電子地圖透明">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="group1">
+            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="group1">
                 <customproperties/>
                 <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_220140804003519816" name="pipelines_2">
                     <customproperties/>
                 </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Checked" id="pipelines_2_georef20140804004758518" name="pipelines_2_georef">
+                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_2_georef20140804004758518" name="pipelines_2_georef">
                     <customproperties/>
                 </layer-tree-layer>
                 <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_220140804003629876" name="pipelines_2">
@@ -56,10 +59,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>167399.72029950475553051</xmin>
-            <ymin>2493152.55497669382020831</ymin>
-            <xmax>203386.20237564953276888</xmax>
-            <ymax>2519767.55734550906345248</ymax>
+            <xmin>167790.37901062512537464</xmin>
+            <ymin>2496819.53579056542366743</ymin>
+            <xmax>197086.41653177601983771</xmax>
+            <ymax>2518486.39687391649931669</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -91,9 +94,15 @@
             <item>pipelines_220140804003629876</item>
             <item>pipelines_2_georef20140804004758518</item>
             <item>Kh_petroleum_gas_pipelines20140804011838406</item>
+            <item>kh_petroleum_pp_buff20140804012740090</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="kh_petroleum_pp_buff" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="kh_petroleum_pp_buff20140804012740090" visible="1"/>
+            </filegroup>
+        </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kh_petroleum_gas_pipelines" showFeatureCount="0">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Kh_petroleum_gas_pipelines20140804011838406" visible="1"/>
@@ -127,15 +136,15 @@
                     <legendlayerfile isInOverview="0" layerid="通用版電子地圖透明20140804002029597" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendgroup open="true" checked="Qt::PartiallyChecked" name="group1">
+            <legendgroup open="true" checked="Qt::Unchecked" name="group1">
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
                         <legendlayerfile isInOverview="0" layerid="pipelines_220140804003519816" visible="0"/>
                     </filegroup>
                 </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="pipelines_2_georef" showFeatureCount="0">
+                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2_georef" showFeatureCount="0">
                     <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="pipelines_2_georef20140804004758518" visible="1"/>
+                        <legendlayerfile isInOverview="0" layerid="pipelines_2_georef20140804004758518" visible="0"/>
                     </filegroup>
                 </legendlayer>
                 <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2" showFeatureCount="0">
@@ -189,7 +198,7 @@
         </destinationsrs>
         <layer_coordinate_transform_info/>
     </mapcanvas>
-    <projectlayers layercount="14">
+    <projectlayers layercount="15">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>1622580_10152225816643639_3439039678136518919_o20140801162422358</id>
             <datasource>../../../Downloads/1622580_10152225816643639_3439039678136518919_o.jpg</datasource>
@@ -532,7 +541,7 @@
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
                 <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value="VILLAGENAM"/>
+                <property key="labeling/fieldName" value="TOWNNAME"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -699,7 +708,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>KH_oilgas_pipelines20140801220004462</id>
             <datasource>/Volumes/ramdisk/KH_pipelines/KH_oilgas_pipelines.shp</datasource>
             <title></title>
@@ -785,40 +794,40 @@
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
-                    <symbol alpha="1" type="line" name="2">
-                        <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="2"/>
-                            <prop k="interval_map_unit_scale" v="0,0"/>
-                            <prop k="interval_unit" v="MM"/>
+                    <symbol alpha="0.305882" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="200,46,142,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
                             <prop k="offset" v="0"/>
-                            <prop k="offset_along_line" v="0"/>
-                            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
-                            <prop k="offset_along_line_unit" v="MM"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="placement" v="interval"/>
-                            <prop k="rotate" v="1"/>
-                            <symbol alpha="1" type="marker" name="@2@0">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="255,0,0,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="horizontal_anchor_point" v="1"/>
-                                    <prop k="name" v="rectangle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="offset_map_unit_scale" v="0,0"/>
-                                    <prop k="offset_unit" v="MM"/>
-                                    <prop k="outline_style" v="solid"/>
-                                    <prop k="outline_width" v="0"/>
-                                    <prop k="outline_width_map_unit_scale" v="0,0"/>
-                                    <prop k="outline_width_unit" v="MM"/>
-                                    <prop k="scale_method" v="area"/>
-                                    <prop k="size" v="1.5"/>
-                                    <prop k="size_map_unit_scale" v="0,0"/>
-                                    <prop k="size_unit" v="MM"/>
-                                    <prop k="vertical_anchor_point" v="1"/>
-                                </layer>
-                            </symbol>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="2.68301"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="220,4,129,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="3.26"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -1076,7 +1085,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.36"/>
+                            <prop k="width" v="0.96"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1093,7 +1102,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.2836"/>
+                            <prop k="width" v="0.906071"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1101,7 +1110,7 @@
                     <symbol alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="255,128,0,255"/>
+                            <prop k="color" v="204,204,204,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
@@ -1118,39 +1127,22 @@
                         </layer>
                     </symbol>
                     <symbol alpha="1" type="line" name="2">
-                        <layer pass="0" class="MarkerLine" locked="0">
-                            <prop k="interval" v="2"/>
-                            <prop k="interval_map_unit_scale" v="0,0"/>
-                            <prop k="interval_unit" v="MM"/>
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
-                            <prop k="offset_along_line" v="0"/>
-                            <prop k="offset_along_line_map_unit_scale" v="0,0"/>
-                            <prop k="offset_along_line_unit" v="MM"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
-                            <prop k="placement" v="interval"/>
-                            <prop k="rotate" v="1"/>
-                            <symbol alpha="1" type="marker" name="@2@0">
-                                <layer pass="0" class="SimpleMarker" locked="0">
-                                    <prop k="angle" v="0"/>
-                                    <prop k="color" v="255,0,0,255"/>
-                                    <prop k="color_border" v="0,0,0,255"/>
-                                    <prop k="horizontal_anchor_point" v="1"/>
-                                    <prop k="name" v="rectangle"/>
-                                    <prop k="offset" v="0,0"/>
-                                    <prop k="offset_map_unit_scale" v="0,0"/>
-                                    <prop k="offset_unit" v="MM"/>
-                                    <prop k="outline_style" v="solid"/>
-                                    <prop k="outline_width" v="0"/>
-                                    <prop k="outline_width_map_unit_scale" v="0,0"/>
-                                    <prop k="outline_width_unit" v="MM"/>
-                                    <prop k="scale_method" v="area"/>
-                                    <prop k="size" v="1.5"/>
-                                    <prop k="size_map_unit_scale" v="0,0"/>
-                                    <prop k="size_unit" v="MM"/>
-                                    <prop k="vertical_anchor_point" v="1"/>
-                                </layer>
-                            </symbol>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.96"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
                 </symbols>
@@ -1347,10 +1339,10 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ID">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -2075,6 +2067,94 @@
                 <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>kh_petroleum_pp_buff20140804012740090</id>
+            <datasource>../../../Google Drive/GIS_Layers/kh_pipelines/buffer_zones/kh_petroleum_pp_buff.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>kh_petroleum_pp_buff</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>27234</srsid>
+                    <srid>3826</srid>
+                    <authid>EPSG:3826</authid>
+                    <description>TWD97 / TM2 zone 121</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="UTF-8">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="195,166,36,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Lucida Grande UI"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>line_ref20140801163542750</id>
