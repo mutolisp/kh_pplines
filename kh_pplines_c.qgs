@@ -3,25 +3,28 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="kh_petroleum_pp_buff20140804012740090" name="kh_petroleum_pp_buff">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="kh_petroleum_pp_buff20140804012740090" name="kh_petroleum_pp_buff">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kh_petroleum_gas_pipelines20140804011838406" name="Kh_petroleum_gas_pipelines">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kh_petroleum_gas_pipelines_wgs8420140804124501580" name="Kh_petroleum_gas_pipelines_wgs84">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="KH_oilgas_pipelines20140801220004462" name="KH_oilgas_pipelines">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-group expanded="1" checked="Qt::Checked" name="Roads">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="Kh_petroleum_gas_pipelines20140804124501588" name="Kh_petroleum_gas_pipelines">
             <customproperties/>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="Khsc_road20140801195554461" name="Khsc_road">
+        </layer-tree-layer>
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Roads">
+            <customproperties/>
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Khsc_road20140801195554461" name="Khsc_road">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="Khsh_road20140801195239680" name="Khsh_road">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Khsh_road20140801195239680" name="Khsh_road">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="raw_pipelines_raster">
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="raw_pipelines_raster">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="kh_cpc_hsingao_pipelines20140804091451272" name="kh_cpc_hsingao_pipelines">
                 <customproperties/>
@@ -30,18 +33,21 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Admin_area">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20140804123653344" name="Google Hybrid">
+            <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Admin_area">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="通用版電子地圖透明20140804002029597" name="通用版電子地圖透明">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="IOT_TW_village_twd97tm220140801220258056" name="IOT_TW_village_twd97tm2">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="IOT_TW_village_twd97tm220140801220258056" name="IOT_TW_village_twd97tm2">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="IOT_TW_county_twd97tm220140801220210626" name="IOT_TW_county_twd97tm2">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="IOT_TW_county_twd97tm220140801220210626" name="IOT_TW_county_twd97tm2">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Checked" id="Khsc_town20140801195557603" name="Khsc_town">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Khsc_town20140801195557603" name="Khsc_town">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -50,25 +56,30 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>163537.11314654641319066</xmin>
-            <ymin>2494006.27697912370786071</ymin>
-            <xmax>192833.1506677073193714</xmax>
-            <ymax>2515673.13806248223409057</ymax>
+            <xmin>13389631.31519349291920662</xmin>
+            <ymin>2580283.27348431805148721</ymin>
+            <xmax>13401472.33791103214025497</xmax>
+            <ymax>2603662.09401907073333859</ymax>
         </extent>
-        <projections>0</projections>
+        <projections>1</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                <srsid>27234</srsid>
-                <srid>3826</srid>
-                <authid>EPSG:3826</authid>
-                <description>TWD97 / TM2 zone 121</description>
-                <projectionacronym>tmerc</projectionacronym>
-                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +over +no_defs</proj4>
+                <srsid>28234</srsid>
+                <srid>900913</srid>
+                <authid>EPSG:900913</authid>
+                <description>Google Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
                 <geographicflag>false</geographicflag>
             </spatialrefsys>
         </destinationsrs>
-        <layer_coordinate_transform_info/>
+        <layer_coordinate_transform_info>
+            <layer_coordinate_transform destAuthId="EPSG:900913" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kh_petroleum_gas_pipelines20140804124501588"/>
+            <layer_coordinate_transform destAuthId="EPSG:900913" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kh_petroleum_gas_pipelines_wgs8420140804124501580"/>
+            <layer_coordinate_transform destAuthId="EPSG:900913" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Kh_petroleum_gas_pipelines_wgs8420140804123613426"/>
+            <layer_coordinate_transform destAuthId="EPSG:900913" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20140804123653344"/>
+        </layer_coordinate_transform_info>
     </mapcanvas>
     <layer-tree-canvas>
         <custom-order enabled="0">
@@ -80,20 +91,22 @@
             <item>IOT_TW_village_twd97tm220140801220258056</item>
             <item>通用版電子地圖透明20140804002029597</item>
             <item>pipelines_2_georef20140804004758518</item>
-            <item>Kh_petroleum_gas_pipelines20140804011838406</item>
             <item>kh_petroleum_pp_buff20140804012740090</item>
             <item>kh_cpc_hsingao_pipelines20140804091451272</item>
+            <item>OpenLayers_plugin_layer20140804123653344</item>
+            <item>Kh_petroleum_gas_pipelines_wgs8420140804124501580</item>
+            <item>Kh_petroleum_gas_pipelines20140804124501588</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="kh_petroleum_pp_buff" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="kh_petroleum_pp_buff" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="kh_petroleum_pp_buff20140804012740090" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="kh_petroleum_pp_buff20140804012740090" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kh_petroleum_gas_pipelines" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kh_petroleum_gas_pipelines_wgs84" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="Kh_petroleum_gas_pipelines20140804011838406" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="Kh_petroleum_gas_pipelines_wgs8420140804124501580" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="KH_oilgas_pipelines" showFeatureCount="0">
@@ -101,19 +114,24 @@
                 <legendlayerfile isInOverview="0" layerid="KH_oilgas_pipelines20140801220004462" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendgroup open="true" checked="Qt::Checked" name="Roads">
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Khsc_road" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Kh_petroleum_gas_pipelines" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Kh_petroleum_gas_pipelines20140804124501588" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Roads">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Khsc_road" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Khsc_road20140801195554461" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="Khsc_road20140801195554461" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Khsh_road" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Khsh_road" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Khsh_road20140801195239680" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="Khsh_road20140801195239680" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="raw_pipelines_raster">
+        <legendgroup open="true" checked="Qt::Unchecked" name="raw_pipelines_raster">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="kh_cpc_hsingao_pipelines" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="kh_cpc_hsingao_pipelines20140804091451272" visible="0"/>
@@ -125,53 +143,35 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Admin_area">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Google Hybrid" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20140804123653344" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendgroup open="true" checked="Qt::Unchecked" name="Admin_area">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="通用版電子地圖透明" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="通用版電子地圖透明20140804002029597" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="IOT_TW_village_twd97tm2" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="IOT_TW_village_twd97tm220140801220258056" visible="1"/>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="IOT_TW_village_twd97tm2" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="IOT_TW_village_twd97tm220140801220258056" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="IOT_TW_county_twd97tm2" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="IOT_TW_county_twd97tm2" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="IOT_TW_county_twd97tm220140801220210626" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="IOT_TW_county_twd97tm220140801220210626" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Khsc_town" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Khsc_town" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="Khsc_town20140801195557603" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="Khsc_town20140801195557603" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
     </legend>
-    <mapcanvas>
-        <units>degrees</units>
-        <extent>
-            <xmin>180.62765957446796961</xmin>
-            <ymin>-408.55053191489366782</ymin>
-            <xmax>358.90425531914888779</xmax>
-            <ymax>-308.80053191489366782</ymax>
-        </extent>
-        <projections>0</projections>
-        <destinationsrs>
-            <spatialrefsys>
-                <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-                <srsid>3452</srsid>
-                <srid>4326</srid>
-                <authid>EPSG:4326</authid>
-                <description>WGS 84</description>
-                <projectionacronym>longlat</projectionacronym>
-                <ellipsoidacronym>WGS84</ellipsoidacronym>
-                <geographicflag>true</geographicflag>
-            </spatialrefsys>
-        </destinationsrs>
-        <layer_coordinate_transform_info/>
-    </mapcanvas>
-    <projectlayers layercount="12">
+    <projectlayers layercount="14">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>IOT_TW_county_twd97tm220140801220210626</id>
             <datasource>../../../Google Drive/GIS_Layers/admin_area/IOT_TW_county_twd97tm2.shp</datasource>
@@ -402,7 +402,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>IOT_TW_village_twd97tm220140801220258056</id>
             <datasource>../../../Google Drive/GIS_Layers/admin_area/IOT_TW_village_twd97tm2.shp</datasource>
             <title></title>
@@ -473,8 +473,8 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
-                <property key="labeling/fieldName" value="TOWNNAME"/>
+                <property key="labeling/enabled" value="true"/>
+                <property key="labeling/fieldName" value="VILLAGENAM"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
                 <property key="labeling/fontFamily" value=".Lucida Grande UI"/>
@@ -974,7 +974,7 @@
             <attributeactions/>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>Kh_petroleum_gas_pipelines20140804011838406</id>
+            <id>Kh_petroleum_gas_pipelines20140804124501588</id>
             <datasource>../../../Google Drive/GIS_Layers/kh_pipelines/Kh_petroleum_gas_pipelines.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -992,6 +992,98 @@
                     <projectionacronym>tmerc</projectionacronym>
                     <ellipsoidacronym>GRS80</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="UTF-8">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="238,70,61,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation/>
+                <sizescale scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>NAME</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name=".Lucida Grande UI"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ID">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
+                    <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+                </edittype>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <featformsuppress>0</featformsuppress>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+            <id>Kh_petroleum_gas_pipelines_wgs8420140804124501580</id>
+            <datasource>../../../Google Drive/GIS_Layers/kh_pipelines/Kh_petroleum_gas_pipelines_wgs84.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Kh_petroleum_gas_pipelines_wgs84</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
                 </spatialrefsys>
             </srs>
             <provider encoding="UTF-8">ogr</provider>
@@ -1018,7 +1110,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.96"/>
+                            <prop k="width" v="1.36"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1035,7 +1127,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.906071"/>
+                            <prop k="width" v="1.2836"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1043,7 +1135,7 @@
                     <symbol alpha="1" type="line" name="1">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="204,204,204,255"/>
+                            <prop k="color" v="255,128,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
@@ -1059,10 +1151,27 @@
                             <prop k="width_unit" v="MM"/>
                         </layer>
                     </symbol>
-                    <symbol alpha="1" type="line" name="2">
+                    <symbol alpha="0.305882" type="line" name="2">
+                        <layer pass="0" class="SimpleLine" locked="1">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="200,46,142,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="round"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="2.68301"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color" v="220,4,129,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
@@ -1073,7 +1182,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.96"/>
+                            <prop k="width" v="3.26"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -1272,10 +1381,10 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ID">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAME">
+                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -1288,7 +1397,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Khsc_road20140801195554461</id>
             <datasource>../../../Google Drive/GIS_Layers/TWD97/Khsc/Khsc_road.shp</datasource>
             <title></title>
@@ -1363,7 +1472,7 @@
                 <property key="labeling/distInMapUnits" value="false"/>
                 <property key="labeling/distMapUnitMaxScale" value="0"/>
                 <property key="labeling/distMapUnitMinScale" value="0"/>
-                <property key="labeling/enabled" value="false"/>
+                <property key="labeling/enabled" value="true"/>
                 <property key="labeling/fieldName" value="Roadname"/>
                 <property key="labeling/fontBold" value="false"/>
                 <property key="labeling/fontCapitals" value="0"/>
@@ -1961,6 +2070,29 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+            <id>OpenLayers_plugin_layer20140804123653344</id>
+            <datasource></datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>Google Hybrid</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties/>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>Raster20140801162533875</id>
             <datasource>../../../Downloads/1622580_10152225816643639_3439039678136518919_o.jpg</datasource>
@@ -2113,17 +2245,17 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="ID">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="0" widgetv2type="TextEdit" name="NAME">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="NAME">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -2233,7 +2365,7 @@
         <WMSServiceAbstract type="QString"></WMSServiceAbstract>
         <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
         <Measure>
-            <Ellipsoid type="QString">NONE</Ellipsoid>
+            <Ellipsoid type="QString">WGS84</Ellipsoid>
         </Measure>
         <WFSTLayers>
             <Insert type="QStringList"/>
@@ -2257,14 +2389,12 @@
                 <value>Khsc_road20140801195554461</value>
                 <value>Khsc_town20140801195557603</value>
                 <value>Khsh_road20140801195239680</value>
-                <value>Kh_petroleum_gas_pipelines20140804011838406</value>
                 <value>kh_petroleum_pp_buff20140804012740090</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>enabled</value>
-                <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
@@ -2279,10 +2409,8 @@
                 <value>0</value>
                 <value>0</value>
                 <value>0</value>
-                <value>0</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
-                <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
@@ -2299,7 +2427,6 @@
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
-                <value>0.000000</value>
             </LayerSnappingToleranceList>
         </Digitizing>
         <Identify>
@@ -2311,10 +2438,10 @@
         <WMSAccessConstraints type="QString"></WMSAccessConstraints>
         <WCSLayers type="QStringList"/>
         <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
-            <ProjectCrs type="QString">EPSG:3826</ProjectCrs>
-            <ProjectCRSID type="int">27234</ProjectCRSID>
-            <ProjectionsEnabled type="int">0</ProjectionsEnabled>
+            <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +over +no_defs</ProjectCRSProj4String>
+            <ProjectCrs type="QString">EPSG:900913</ProjectCrs>
+            <ProjectCRSID type="int">28234</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
         </SpatialRefSys>
         <DefaultStyles>
             <Fill type="QString"></Fill>
