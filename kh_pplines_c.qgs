@@ -12,9 +12,6 @@
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="KH_oilgas_pipelines20140801220004462" name="KH_oilgas_pipelines">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="line_ref20140801163542750" name="line_ref">
-            <customproperties/>
-        </layer-tree-layer>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="Roads">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Checked" id="Khsc_road20140801195554461" name="Khsc_road">
@@ -24,33 +21,27 @@
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Admin_area">
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="raw_pipelines_raster">
+            <customproperties/>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="kh_cpc_hsingao_pipelines20140804091451272" name="kh_cpc_hsingao_pipelines">
+                <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_2_georef20140804004758518" name="pipelines_2_georef">
+                <customproperties/>
+            </layer-tree-layer>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Admin_area">
             <customproperties/>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="通用版電子地圖透明20140804002029597" name="通用版電子地圖透明">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-group expanded="1" checked="Qt::Unchecked" name="group1">
-                <customproperties/>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_220140804003519816" name="pipelines_2">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_2_georef20140804004758518" name="pipelines_2_georef">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pipelines_220140804003629876" name="pipelines_2">
-                    <customproperties/>
-                </layer-tree-layer>
-                <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="1622580_10152225816643639_3439039678136518919_o20140801162422358" name="1622580_10152225816643639_3439039678136518919_o">
-                    <customproperties/>
-                </layer-tree-layer>
-            </layer-tree-group>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="IOT_TW_village_twd97tm220140801220258056" name="IOT_TW_village_twd97tm2">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="IOT_TW_village_twd97tm220140801220258056" name="IOT_TW_village_twd97tm2">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="IOT_TW_county_twd97tm220140801220210626" name="IOT_TW_county_twd97tm2">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="IOT_TW_county_twd97tm220140801220210626" name="IOT_TW_county_twd97tm2">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="Khsc_town20140801195557603" name="Khsc_town">
+            <layer-tree-layer expanded="0" checked="Qt::Checked" id="Khsc_town20140801195557603" name="Khsc_town">
                 <customproperties/>
             </layer-tree-layer>
         </layer-tree-group>
@@ -59,10 +50,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>167790.37901062512537464</xmin>
-            <ymin>2496819.53579056542366743</ymin>
-            <xmax>197086.41653177601983771</xmax>
-            <ymax>2518486.39687391649931669</ymax>
+            <xmin>163537.11314654641319066</xmin>
+            <ymin>2494006.27697912370786071</ymin>
+            <xmax>192833.1506677073193714</xmax>
+            <ymax>2515673.13806248223409057</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -81,8 +72,6 @@
     </mapcanvas>
     <layer-tree-canvas>
         <custom-order enabled="0">
-            <item>1622580_10152225816643639_3439039678136518919_o20140801162422358</item>
-            <item>line_ref20140801163542750</item>
             <item>Khsh_road20140801195239680</item>
             <item>Khsc_road20140801195554461</item>
             <item>Khsc_town20140801195557603</item>
@@ -90,11 +79,10 @@
             <item>IOT_TW_county_twd97tm220140801220210626</item>
             <item>IOT_TW_village_twd97tm220140801220258056</item>
             <item>通用版電子地圖透明20140804002029597</item>
-            <item>pipelines_220140804003519816</item>
-            <item>pipelines_220140804003629876</item>
             <item>pipelines_2_georef20140804004758518</item>
             <item>Kh_petroleum_gas_pipelines20140804011838406</item>
             <item>kh_petroleum_pp_buff20140804012740090</item>
+            <item>kh_cpc_hsingao_pipelines20140804091451272</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
@@ -113,11 +101,6 @@
                 <legendlayerfile isInOverview="0" layerid="KH_oilgas_pipelines20140801220004462" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="line_ref" showFeatureCount="0">
-            <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="line_ref20140801163542750" visible="0"/>
-            </filegroup>
-        </legendlayer>
         <legendgroup open="true" checked="Qt::Checked" name="Roads">
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Khsc_road" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
@@ -130,46 +113,36 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Admin_area">
+        <legendgroup open="false" checked="Qt::Unchecked" name="raw_pipelines_raster">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="kh_cpc_hsingao_pipelines" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="kh_cpc_hsingao_pipelines20140804091451272" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2_georef" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="pipelines_2_georef20140804004758518" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::PartiallyChecked" name="Admin_area">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="通用版電子地圖透明" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="通用版電子地圖透明20140804002029597" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendgroup open="true" checked="Qt::Unchecked" name="group1">
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="pipelines_220140804003519816" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2_georef" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="pipelines_2_georef20140804004758518" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pipelines_2" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="pipelines_220140804003629876" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-                <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1622580_10152225816643639_3439039678136518919_o" showFeatureCount="0">
-                    <filegroup open="true" hidden="false">
-                        <legendlayerfile isInOverview="0" layerid="1622580_10152225816643639_3439039678136518919_o20140801162422358" visible="0"/>
-                    </filegroup>
-                </legendlayer>
-            </legendgroup>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="IOT_TW_village_twd97tm2" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="IOT_TW_village_twd97tm2" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="IOT_TW_village_twd97tm220140801220258056" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="IOT_TW_county_twd97tm2" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="IOT_TW_county_twd97tm2" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="IOT_TW_county_twd97tm220140801220210626" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Khsc_town" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Khsc_town" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="Khsc_town20140801195557603" visible="1"/>
                 </filegroup>
             </legendlayer>
@@ -198,47 +171,7 @@
         </destinationsrs>
         <layer_coordinate_transform_info/>
     </mapcanvas>
-    <projectlayers layercount="15">
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>1622580_10152225816643639_3439039678136518919_o20140801162422358</id>
-            <datasource>../../../Downloads/1622580_10152225816643639_3439039678136518919_o.jpg</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>1622580_10152225816643639_3439039678136518919_o</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>27234</srsid>
-                    <srid>3826</srid>
-                    <authid>EPSG:3826</authid>
-                    <description>TWD97 / TM2 zone 121</description>
-                    <projectionacronym>tmerc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Value"/>
-            </customproperties>
-            <provider>gdal</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="0"/>
-                <noDataList bandNo="2" useSrcNoData="0"/>
-                <noDataList bandNo="3" useSrcNoData="0"/>
-            </noData>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
-        </maplayer>
+    <projectlayers layercount="12">
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>IOT_TW_county_twd97tm220140801220210626</id>
             <datasource>../../../Google Drive/GIS_Layers/admin_area/IOT_TW_county_twd97tm2.shp</datasource>
@@ -2068,6 +2001,46 @@
             </pipe>
             <blendMode>0</blendMode>
         </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>kh_cpc_hsingao_pipelines20140804091451272</id>
+            <datasource>./src/kh_cpc_hsingao_pipelines.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>kh_cpc_hsingao_pipelines</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>27234</srsid>
+                    <srid>3826</srid>
+                    <authid>EPSG:3826</authid>
+                    <description>TWD97 / TM2 zone 121</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <noData>
+                <noDataList bandNo="1" useSrcNoData="0"/>
+                <noDataList bandNo="2" useSrcNoData="0"/>
+                <noDataList bandNo="3" useSrcNoData="0"/>
+            </noData>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>kh_petroleum_pp_buff20140804012740090</id>
             <datasource>../../../Google Drive/GIS_Layers/kh_pipelines/buffer_zones/kh_petroleum_pp_buff.shp</datasource>
@@ -2155,126 +2128,6 @@
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
             <attributeactions/>
-        </maplayer>
-        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>line_ref20140801163542750</id>
-            <datasource>/Volumes/ramdisk/line_ref.tif</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>line_ref</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>27234</srsid>
-                    <srid>3826</srid>
-                    <authid>EPSG:3826</authid>
-                    <description>TWD97 / TM2 zone 121</description>
-                    <projectionacronym>tmerc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Value"/>
-            </customproperties>
-            <provider>gdal</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="0"/>
-                <noDataList bandNo="2" useSrcNoData="0"/>
-                <noDataList bandNo="3" useSrcNoData="0"/>
-            </noData>
-            <pipe>
-                <rasterrenderer opacity="0.682353" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="204" colorizeOn="1" colorizeRed="102" colorizeBlue="255" grayscaleMode="0" saturation="0" colorizeStrength="56"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>6</blendMode>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>pipelines_220140804003519816</id>
-            <datasource>./src/pipelines_2.jpg</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>pipelines_2</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>27234</srsid>
-                    <srid>3826</srid>
-                    <authid>EPSG:3826</authid>
-                    <description>TWD97 / TM2 zone 121</description>
-                    <projectionacronym>tmerc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Value"/>
-            </customproperties>
-            <provider>gdal</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="0"/>
-                <noDataList bandNo="2" useSrcNoData="0"/>
-                <noDataList bandNo="3" useSrcNoData="0"/>
-            </noData>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
-        </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-            <id>pipelines_220140804003629876</id>
-            <datasource>./src/pipelines_2.jpg</datasource>
-            <title></title>
-            <abstract></abstract>
-            <keywordList>
-                <value></value>
-            </keywordList>
-            <layername>pipelines_2</layername>
-            <srs>
-                <spatialrefsys>
-                    <proj4>+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>27234</srsid>
-                    <srid>3826</srid>
-                    <authid>EPSG:3826</authid>
-                    <description>TWD97 / TM2 zone 121</description>
-                    <projectionacronym>tmerc</projectionacronym>
-                    <ellipsoidacronym>GRS80</ellipsoidacronym>
-                    <geographicflag>false</geographicflag>
-                </spatialrefsys>
-            </srs>
-            <customproperties>
-                <property key="identify/format" value="Value"/>
-            </customproperties>
-            <provider>gdal</provider>
-            <noData>
-                <noDataList bandNo="1" useSrcNoData="0"/>
-                <noDataList bandNo="2" useSrcNoData="0"/>
-                <noDataList bandNo="3" useSrcNoData="0"/>
-            </noData>
-            <pipe>
-                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                    <rasterTransparency/>
-                </rasterrenderer>
-                <brightnesscontrast brightness="0" contrast="0"/>
-                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-                <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>pipelines_2_georef20140804004758518</id>
@@ -2405,11 +2258,13 @@
                 <value>Khsc_town20140801195557603</value>
                 <value>Khsh_road20140801195239680</value>
                 <value>Kh_petroleum_gas_pipelines20140804011838406</value>
+                <value>kh_petroleum_pp_buff20140804012740090</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>enabled</value>
+                <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
@@ -2424,8 +2279,10 @@
                 <value>0</value>
                 <value>0</value>
                 <value>0</value>
+                <value>0</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
+                <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
@@ -2438,6 +2295,7 @@
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>5.000000</value>
+                <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
