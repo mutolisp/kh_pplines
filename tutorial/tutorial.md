@@ -20,7 +20,7 @@
 5. 用看圖軟體看一下要校正的參考控制點，因為原始檔為道路圖，所以比較好抓出特徵(pattern)的是圓環交叉口，
 因此我把幾個圓環圈起來，當做候選參考控制點。此外，為了獲得最佳的校正效果，建議平均在圖面上的東西南北各找幾個候選參考控制點，
 這樣結果會比較準確（當然點愈多愈好）
-![確認原檔，及預先找出特徵](https://github.com/mutolisp/kh_pplines/blob/master/tutorial/img/05_grep_candidates.png)
+![確認原檔，及預先找出特徵](https://github.com/mutolisp/kh_pplines/blob/master/tutorial/img/05_grep_candidates.jpg)
 
 6. 開啟「幾何校正」對話框，按圖示列最左邊的「加入影像檔」，並選取我們要做校正的檔案。在幾何校正功能中，
 中間的框是顯示原圖，可以放大縮小並加入參考控制點(georeference check points; GCPs)，加入的參考點會顯示在
