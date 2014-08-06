@@ -14,8 +14,6 @@ layers/ 資料夾中為數化過的 GIS 圖層
 
 * kh_petroleum_pipelines_[twd97|wgs84]  為 TWD1997 TM2/WGS84 經緯度的石化輸油管線圖層
 * kh_ng_pipelines_[twd97|wgs84]  為 TWD1997 TM2/WGS84 經緯度的欣高公司天然氣管線圖層
-
-
+* cpc/ 中油輸油管線圖層
 
 ![pipelines of explosion area](https://raw.github.com/mutolisp/kh_pplines/master/kh_pplines.png)
-

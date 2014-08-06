@@ -23,7 +23,7 @@
         </layer-tree-group>
         <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="raw_pipelines_raster">
             <customproperties/>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="cpc_kh_pplines_twd9720140807005527291" name="cpc_kh_pplines_twd97">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="cpc_kh_pplines_twd9720140807021128719" name="cpc_kh_pplines_twd97">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cpc_420140807005404053" name="cpc_4">
@@ -32,10 +32,10 @@
             <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cpc_320140807005641602" name="cpc_3">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="cpc_120140807013215655" name="cpc_1">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cpc_220140807013215723" name="cpc_2">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="1" checked="Qt::Checked" id="cpc_220140807013215723" name="cpc_2">
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cpc_120140807013215655" name="cpc_1">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="國土利用調查成果圖20140805235723554" name="國土利用調查成果圖">
@@ -74,10 +74,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>175866.9192167830769904</xmin>
-            <ymin>2506949.2724947459064424</ymin>
-            <xmax>187102.86143020103918388</xmax>
-            <ymax>2515373.26296098297461867</ymax>
+            <xmin>151670.32880465657217428</xmin>
+            <ymin>2491766.35848515015095472</ymin>
+            <xmax>204288.65315017011016607</xmax>
+            <ymax>2531216.21095116343349218</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -97,12 +97,16 @@
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_120140807013215655"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_320140807004106026"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_120140806234828746"/>
+            <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_kh_pplines20140807020713787"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_220140807013215723"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_420140807005112601"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="Khsc_road20140801195554461"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_420140807005404053"/>
+            <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_kh_pplines_twd9720140807020557861"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="Khsh_road20140801195239680"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_420140807005355008"/>
+            <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_kh_pplines_twd9720140807021128719"/>
+            <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="kh_petroleum_pipelines_twd9720140805231819521"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_120140807000651750"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_kh_pplines_twd9720140807005527291"/>
             <layer_coordinate_transform destAuthId="EPSG:3826" srcAuthId="EPSG:3826" srcDatumTransform="-1" destDatumTransform="-1" layerid="cpc_320140807005641602"/>
@@ -124,10 +128,10 @@
             <item>國土利用調查成果圖20140805235723554</item>
             <item>kh_petroleum_pipelines_twd97_diss20140806142922831</item>
             <item>cpc_420140807005404053</item>
-            <item>cpc_kh_pplines_twd9720140807005527291</item>
             <item>cpc_320140807005641602</item>
             <item>cpc_120140807013215655</item>
             <item>cpc_220140807013215723</item>
+            <item>cpc_kh_pplines_twd9720140807021128719</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
@@ -158,7 +162,7 @@
         <legendgroup open="true" checked="Qt::PartiallyChecked" name="raw_pipelines_raster">
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="cpc_kh_pplines_twd97" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="cpc_kh_pplines_twd9720140807005527291" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="cpc_kh_pplines_twd9720140807021128719" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cpc_4" showFeatureCount="0">
@@ -171,14 +175,14 @@
                     <legendlayerfile isInOverview="0" layerid="cpc_320140807005641602" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="cpc_1" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cpc_2" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="cpc_120140807013215655" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="cpc_220140807013215723" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="cpc_2" showFeatureCount="0">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="cpc_1" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="cpc_220140807013215723" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="cpc_120140807013215655" visible="0"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="國土利用調查成果圖" showFeatureCount="0">
@@ -1799,7 +1803,7 @@
             <blendMode>0</blendMode>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-            <id>cpc_kh_pplines_twd9720140807005527291</id>
+            <id>cpc_kh_pplines_twd9720140807021128719</id>
             <datasource>./layers/cpc/cpc_kh_pplines_twd97.shp</datasource>
             <title></title>
             <abstract></abstract>
@@ -1826,36 +1830,19 @@
                 <symbols>
                     <symbol alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
-                            <prop k="capstyle" v="round"/>
-                            <prop k="color" v="122,245,0,255"/>
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="255,0,0,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="customdash_map_unit_scale" v="0,0"/>
                             <prop k="customdash_unit" v="MM"/>
                             <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="round"/>
+                            <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
                             <prop k="offset_map_unit_scale" v="0,0"/>
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.56"/>
-                            <prop k="width_map_unit_scale" v="0,0"/>
-                            <prop k="width_unit" v="MM"/>
-                        </layer>
-                        <layer pass="0" class="SimpleLine" locked="1">
-                            <prop k="capstyle" v="round"/>
-                            <prop k="color" v="85,170,0,255"/>
-                            <prop k="customdash" v="5;2"/>
-                            <prop k="customdash_map_unit_scale" v="0,0"/>
-                            <prop k="customdash_unit" v="MM"/>
-                            <prop k="draw_inside_polygon" v="0"/>
-                            <prop k="joinstyle" v="round"/>
-                            <prop k="offset" v="0"/>
-                            <prop k="offset_map_unit_scale" v="0,0"/>
-                            <prop k="offset_unit" v="MM"/>
-                            <prop k="penstyle" v="dot"/>
-                            <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="1.36"/>
+                            <prop k="width" v="0.46"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -2010,7 +1997,7 @@
             <blendMode>0</blendMode>
             <featureBlendMode>0</featureBlendMode>
             <layerTransparency>0</layerTransparency>
-            <displayfield>id</displayfield>
+            <displayfield>ID</displayfield>
             <label>0</label>
             <labelattributes>
                 <label fieldname="" text="標記"/>
@@ -2033,10 +2020,10 @@
                 <selectedonly on=""/>
             </labelattributes>
             <edittypes>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="id">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="ID">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
-                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="company">
+                <edittype labelontop="0" editable="1" widgetv2type="TextEdit" name="COMPANY">
                     <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
                 </edittype>
             </edittypes>
@@ -2741,7 +2728,6 @@
                 <value>Khsh_road20140801195239680</value>
                 <value>kh_petroleum_pipelines_twd9720140805231819521</value>
                 <value>kh_petroleum_pipelines_twd97_diss20140806142922831</value>
-                <value>cpc_kh_pplines_twd9720140807005527291</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
@@ -2751,7 +2737,6 @@
                 <value>disabled</value>
                 <value>disabled</value>
                 <value>disabled</value>
-                <value>enabled</value>
             </LayerSnappingEnabledList>
             <AvoidIntersectionsList type="QStringList"/>
             <IntersectionSnapping type="bool">true</IntersectionSnapping>
@@ -2763,10 +2748,8 @@
                 <value>0</value>
                 <value>0</value>
                 <value>0</value>
-                <value>1</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
-                <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
                 <value>to_vertex_and_segment</value>
@@ -2783,7 +2766,6 @@
                 <value>0.000000</value>
                 <value>0.000000</value>
                 <value>0.000000</value>
-                <value>10.000000</value>
             </LayerSnappingToleranceList>
         </Digitizing>
         <Identify>
