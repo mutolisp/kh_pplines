@@ -17,5 +17,5 @@ layers/ 資料夾中為數化過的 GIS 圖層
 
 
 
-![pipelines of explosion area](https://github.com/mutolisp/kh_pplines/blob/master/kh_pplines.png)
+![pipelines of explosion area](https://raw.github.com/mutolisp/kh_pplines/master/kh_pplines.png)
 
