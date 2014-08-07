@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "company": "和桐" }, "geometry": { "type": "LineString", "coordinates": [ [ 120.324219056830856, 22.706741705341681 ], [ 120.324920147466784, 22.706693757784404 ], [ 120.327226798263112, 22.706591866878956 ] ] } }
+]
+}
