@@ -11,7 +11,7 @@
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="kh_petroleum_pipelines_twd9720140805231819521" name="kh_petroleum_pipelines_twd97">
                 <customproperties/>
             </layer-tree-layer>
-            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="lcy_kh_pplines_twd9720140808155558147" name="榮化">
+            <layer-tree-layer expanded="1" checked="Qt::Checked" id="lcy_kh_pplines_twd9720140808155558147" name="榮化">
                 <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="apc_kh_pplines_twd9720140808134031366" name="亞聚">
@@ -131,10 +131,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>167317.47874977634637617</xmin>
+            <xmin>169923.3996305325999856</xmin>
             <ymin>2485309.52873739786446095</ymin>
-            <xmax>197602.50520180846797302</xmax>
-            <ymax>2533554.28017842583358288</ymax>
+            <xmax>198095.51726032991427928</xmax>
+            <ymax>2533202.12870805338025093</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -261,9 +261,9 @@
                     <legendlayerfile isInOverview="0" layerid="kh_petroleum_pipelines_twd9720140805231819521" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="榮化" showFeatureCount="0">
-                <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="lcy_kh_pplines_twd9720140808155558147" visible="0"/>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="榮化" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="lcy_kh_pplines_twd9720140808155558147" visible="1"/>
                 </filegroup>
             </legendlayer>
             <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="亞聚" showFeatureCount="0">
@@ -645,7 +645,7 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -668,7 +668,7 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -691,7 +691,7 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -714,7 +714,7 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -737,7 +737,7 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -760,7 +760,30 @@
                                         <prop k="offset_unit" v="MM"/>
                                         <prop k="penstyle" v="solid"/>
                                         <prop k="use_custom_dash" v="0"/>
-                                        <prop k="width" v="0.66"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="189,0,38,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
                                         <prop k="width_map_unit_scale" v="0,0"/>
                                         <prop k="width_unit" v="MM"/>
                                     </layer>
@@ -769,7 +792,7 @@
                         </VectorClassificationItemNg>
                     </LayerItem>
                 </Model>
-                <ComposerItem pagey="153.382" page="1" id="" lastValidViewScaleFactor="2.95445" positionMode="0" positionLock="false" x="140.804" y="153.382" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.2" outlineWidth="0.3" uuid="{5d7e6a3a-638d-483a-9b61-a011c690e129}" height="55.5547" itemRotation="0" frame="false" pagex="140.804">
+                <ComposerItem pagey="153.382" page="1" id="" lastValidViewScaleFactor="2.95445" positionMode="0" positionLock="false" x="140.804" y="153.382" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.2" outlineWidth="0.3" uuid="{5d7e6a3a-638d-483a-9b61-a011c690e129}" height="61.5547" itemRotation="0" frame="false" pagex="140.804">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -823,6 +846,262 @@
                 </Grid>
                 <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
                 <ComposerItem pagey="9" page="1" id="" lastValidViewScaleFactor="1.47723" positionMode="0" positionLock="false" x="4" y="9" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="199" outlineWidth="0.3" uuid="{3b06c856-1d27-4c81-8239-7baa1effe597}" height="278" itemRotation="0" frame="false" pagex="4">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerMap>
+        </Composition>
+    </Composer>
+    <Composer title="Composer 3" visible="1">
+        <Composition snapGridTolerance="2" gridVisible="0" printResolution="300" paperWidth="210" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" numPages="1" paperHeight="297" alignmentSnapTolerance="2" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+            <symbol alpha="1" type="fill" name="">
+                <layer pass="0" class="SimpleFill" locked="0">
+                    <prop k="border_width_map_unit_scale" v="0,0"/>
+                    <prop k="border_width_unit" v="MM"/>
+                    <prop k="color" v="255,255,255,255"/>
+                    <prop k="color_border" v="0,0,0,255"/>
+                    <prop k="joinstyle" v="miter"/>
+                    <prop k="offset" v="0,0"/>
+                    <prop k="offset_map_unit_scale" v="0,0"/>
+                    <prop k="offset_unit" v="MM"/>
+                    <prop k="style" v="solid"/>
+                    <prop k="style_border" v="no"/>
+                    <prop k="width_border" v="0.26"/>
+                </layer>
+            </symbol>
+            <ComposerScaleBar penColor="#000000" lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" alignment="0" brushColor="#000000" numSegments="4" segmentMillimeters="11.6372" lineJoinStyle="miter" fontColor="#000000" font=".Lucida Grande UI,12,-1,5,50,0,0,0,0,0" numUnitsPerSegment="5000" units="1" labelBarSpace="2" outlineWidth="0.4" numSegmentsLeft="0" height="1" mapId="0" boxContentSpace="2" unitLabel="km">
+                <ComposerItem pagey="225.746" page="1" id="" lastValidViewScaleFactor="2.95445" positionMode="0" positionLock="true" x="27.0624" y="225.746" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="63.0341" outlineWidth="0.3" uuid="{815ef23d-9d6e-456e-9875-142b80ef729c}" height="11.0594" itemRotation="0" frame="false" pagex="27.0624">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerScaleBar>
+            <ComposerLegend symbolWidth="7" title="圖例" boxSpace="2" splitLayer="0" equalColumnWidth="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
+                <styles>
+                    <style marginBottom="2" name="title" font=".Lucida Grande UI,16,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="group" font=".Lucida Grande UI,14,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="subgroup" font=".Lucida Grande UI,12,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" name="symbol" font=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0"/>
+                    <style marginTop="2" marginLeft="2" name="symbolLabel" font=".Lucida Grande UI,12,-1,5,50,0,0,0,0,0"/>
+                </styles>
+                <Model autoUpdate="1">
+                    <LayerItem layerId="kh_pplines_twd9720140808160007412" userText="石化輸油管線" style="subgroup" text="石化輸油管線" showFeatureCount="0">
+                        <VectorClassificationItemNg userText="" text="中油">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="255,255,178,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="中石化">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="254,221,120,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="亞聚">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="253,183,81,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="台塑">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="253,141,60,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="和桐">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="244,86,41,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="榮化">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="223,39,34,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                        <VectorClassificationItemNg userText="" text="">
+                            <symbols>
+                                <symbol alpha="1" type="line" name="classificationSymbol">
+                                    <layer pass="0" class="SimpleLine" locked="0">
+                                        <prop k="capstyle" v="square"/>
+                                        <prop k="color" v="189,0,38,255"/>
+                                        <prop k="customdash" v="5;2"/>
+                                        <prop k="customdash_map_unit_scale" v="0,0"/>
+                                        <prop k="customdash_unit" v="MM"/>
+                                        <prop k="draw_inside_polygon" v="0"/>
+                                        <prop k="joinstyle" v="bevel"/>
+                                        <prop k="offset" v="0"/>
+                                        <prop k="offset_map_unit_scale" v="0,0"/>
+                                        <prop k="offset_unit" v="MM"/>
+                                        <prop k="penstyle" v="solid"/>
+                                        <prop k="use_custom_dash" v="0"/>
+                                        <prop k="width" v="0.35"/>
+                                        <prop k="width_map_unit_scale" v="0,0"/>
+                                        <prop k="width_unit" v="MM"/>
+                                    </layer>
+                                </symbol>
+                            </symbols>
+                        </VectorClassificationItemNg>
+                    </LayerItem>
+                </Model>
+                <ComposerItem pagey="168.898" page="1" id="" lastValidViewScaleFactor="2.95445" positionMode="0" positionLock="false" x="150.282" y="168.898" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="29.2" outlineWidth="0.3" uuid="{71269f12-b4f7-44cb-89ce-80399b7d311e}" height="61.5547" itemRotation="0" frame="false" pagex="150.282">
+                    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+                </ComposerItem>
+            </ComposerLegend>
+            <ComposerMap mapRotation="0" keepLayerSet="false" overviewFrameMap="-1" id="0" previewMode="Cache" drawCanvasItems="true">
+                <overviewFrame overviewBlendMode="0" overviewFrameMap="-1" overviewCentered="false" overviewInverted="false">
+                    <symbol alpha="0.3" type="fill" name="">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="border_width_map_unit_scale" v="0,0"/>
+                            <prop k="border_width_unit" v="MM"/>
+                            <prop k="color" v="255,0,0,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="no"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </overviewFrame>
+                <Extent ymin="2485309.52873739786446095" xmin="146201.2862150757573545" ymax="2583267.06587968254461884" xmax="221817.63067578675691038"/>
+                <LayerSet/>
+                <Grid gridStyle="0" crossLength="3" gridFramePenThickness="0.5" intervalX="0" offsetX="0" intervalY="0" offsetY="0" gridFrameStyle="0" gridFrameWidth="2" gridBlendMode="0" show="0">
+                    <framePenColor alpha="255" red="0" blue="0" green="0"/>
+                    <frameFillColor1 alpha="255" red="255" blue="255" green="255"/>
+                    <frameFillColor2 alpha="255" red="0" blue="0" green="0"/>
+                    <symbol alpha="1" type="line" name="">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="flat"/>
+                            <prop k="color" v="0,0,0,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_map_unit_scale" v="0,0"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="draw_inside_polygon" v="0"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_map_unit_scale" v="0,0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.3"/>
+                            <prop k="width_map_unit_scale" v="0,0"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                    <Annotation rightDirection="0" bottomDirection="0" format="0" topPosition="1" precision="3" leftDirection="0" rightPosition="1" bottomPosition="1" frameDistance="1" show="0" font=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" leftPosition="1" topDirection="0">
+                        <fontColor alpha="255" red="0" blue="0" green="0"/>
+                    </Annotation>
+                </Grid>
+                <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+                <ComposerItem pagey="8" page="1" id="" lastValidViewScaleFactor="2.95445" positionMode="0" positionLock="false" x="11" y="8" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="176" outlineWidth="0.3" uuid="{560a153c-11dd-44dc-a68a-5ec2827cd83e}" height="228" itemRotation="0" frame="false" pagex="11">
                     <FrameColor alpha="255" red="0" blue="0" green="0"/>
                     <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
                 </ComposerItem>
@@ -4594,7 +4873,7 @@
             <excludeAttributesWFS/>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+        <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>kh_pplines_twd9720140808160007412</id>
             <datasource>./layers/kh_pplines_twd97.shp</datasource>
             <title></title>
@@ -4643,7 +4922,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4662,7 +4941,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4681,7 +4960,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4700,7 +4979,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4719,7 +4998,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4738,7 +5017,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
@@ -4757,7 +5036,7 @@
                             <prop k="offset_unit" v="MM"/>
                             <prop k="penstyle" v="solid"/>
                             <prop k="use_custom_dash" v="0"/>
-                            <prop k="width" v="0.66"/>
+                            <prop k="width" v="0.35"/>
                             <prop k="width_map_unit_scale" v="0,0"/>
                             <prop k="width_unit" v="MM"/>
                         </layer>
